@@ -18,7 +18,7 @@ conda install -c conda-forge 包名
 
 1.  打开 **Anaconda Prompt**（别用系统CMD，否则找不到conda）
 
-2. 激活你要装包的环境（你的项目环境 ycgs）
+2. 激活你要装包的环境（你的项目环境）
    
    ```bash
    conda activate ycgs
@@ -109,7 +109,7 @@ print(pyomo.__version__)
 2. **下载速度极慢**
    配置国内清华conda镜像源，大幅提速；
 3. **VS Code导入库提示找不到**
-   VS Code左下角解释器切换到 `ycgs` 这个conda环境；
+   VS Code左下角解释器切换到目标conda环境；
 4. **安装冲突报错**
    去掉 `-c conda-forge` 用官方源，或者新建干净虚拟环境安装。
 
